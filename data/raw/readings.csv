@@ -1,0 +1,2 @@
+station_id,observed_at,aqi,pm25,pm10,temp,humidity,wind,fetched_at
+geo:30.1956;71.4697,2026-11-07T20:00:00+05:30,205,205,129,23.9,90.5,0.3,2026-11-07T15:11:54.137163+00:00

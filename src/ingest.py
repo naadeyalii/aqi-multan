@@ -10,7 +10,7 @@ TOKEN = os.getenv("WAQI_TOKEN")
 COLUMNS = ["station_id", "observed_at", "aqi", "pm25", "pm10", "temp", "humidity", "wind", "fetched_at"]
 
 def fetch_station(station, token):
-    r = requests.get(f"https://api.waqi.info/feed/{station}/", params={"token": token}, timeout=30)
+    r = requests.get(f"https://api.waqi.info/feed/{station}/", params={"token": token}, timeout=60)
     r.raise_for_status()
     payload = r.json()
     if payload.get("status") != "ok":
