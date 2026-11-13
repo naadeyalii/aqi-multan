@@ -1,5 +1,5 @@
-** Multan AQI Prediction Engine
-**
+Multan AQI Prediction Engine
+
 Enterprise-Grade Environmental Telemetry & Machine Learning Forecasting
 
 A high-fidelity Data Science dashboard designed to predict next-day Air Quality Index (AQI) levels for Multan, Pakistan. Built to operate in intermittent network environments, this project features a hybrid live-API/offline-edge pipeline, a parametric machine learning model capable of extreme smog extrapolation, and a custom Dribbble-inspired UI.
@@ -50,7 +50,7 @@ A World Air Quality Index (WAQI) API Token (Optional: gracefully falls back to o
 
 Clone the repository and activate your virtual environment:
 
-git clone https://github.com/yourusername/aqi-multan.git
+git clone https://github.com/naadeyalii/aqi-multan.git
 cd aqi-multan
 python -m venv .venv
 .venv\Scripts\activate  # Windows
